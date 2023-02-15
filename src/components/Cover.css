@@ -1,0 +1,27 @@
+@font-face{
+    font-family: 'TAG-Regular';
+    src:url('../font/TAG_2023-Regular.woff') format('woff');
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+.cover p{
+    font-family: 'TAG-Regular';
+    font-size: 40px;
+    text-align: left;
+    padding-left:3%;
+    padding-right: 3%;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+.cover span{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10%;
+}

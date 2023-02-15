@@ -1,0 +1,39 @@
+.App .isDark{
+    background-color: black;
+    color:white;
+  }
+  .App .isLight{
+    background-color: white;
+    color: black;
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    position: sticky;
+    top:0;
+  }
+  .header span{
+    text-align: left;
+    width: 95%;
+    padding-left:3%;
+    padding-right: 3%;
+    font-size: 40px;
+  }
+  .App .isDark .header button{
+    width:10%;
+    font-size: 30px;
+    color:white;
+    border-radius: 100%;
+    border-width: 0;
+    background-color: transparent;
+  }
+  .App .isLight .header button{
+    width:10%;
+    font-size: 30px;
+    color:black;
+    border-radius: 100%;
+    border-width: 0;
+    background-color: transparent;
+  }
+  
